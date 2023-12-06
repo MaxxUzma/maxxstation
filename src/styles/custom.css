@@ -1,0 +1,133 @@
+.users{
+    
+    font-size: 19px;
+    color: #000;
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 390px;
+    height: 150px;
+    margin-left: 516px;
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .right-content {
+    margin-left: 16px; }
+  
+.card-box-sec .card {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+.right-side-sec {
+    max-width: calc(100% - 350px);
+    -webkit-flex: 0 0 calc(100% - 350px);
+    flex: 0 0 calc(100% - 350px);
+    margin-left: auto;
+}
+.card-box-sec .card .card-body {
+    width: 100%;
+    max-width: 100%;
+}
+.text-left{
+  display: block;
+  text-align: left;
+}
+.card {
+  margin: 0;
+  max-width: 100%;
+}
+.card .card-body .dataTables_wrapper .form-control{
+  border: none;
+    min-height: 30px;
+    background-color: #f4f4f4;
+}
+div.dataTables_wrapper div.dataTables_filter{
+  text-align: right;
+}
+div.dataTables_wrapper div.dataTables_length label {
+  font-weight: normal;
+  text-align: left;
+}
+.hover-icons:hover {
+  display: block;
+}
+.table-full-width {
+  width: 100%;
+}
+.selected-tab {
+  background-color: orange;
+  color: white; /* Optionally, change text color */
+}
+.react-tabs__tab {
+  padding: 10px 20px !important;
+}
+.react-tabs__tab--selected {
+  background: orange !important;
+  border-color: orange !important;
+  color: #fff !important;
+}
+.react-tabs__tab--selected::before, 
+.react-tabs__tab--selected::after {
+  display: none !important;
+}
+.react-tabs__tab-list {
+  border-bottom: 0 !important;
+  text-align: left;
+  margin: 0 !important;
+}
+.tabing-table thead tr th {
+    background: #000;
+    color: #fff;
+}
+.project-log-container {
+  background-color: white;
+  
+}
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: white;
+}
+
+.btn-grey {
+  background-color: grey;
+  color: white;
+}
+.timelog-container {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 30px;
+}
+.timelog-container .timelog {
+  max-width: 16.66%;
+  -webkit-flex: 0 0 16.66%;
+  flex: 0 0 16.66%;
+  padding: 0 15px;
+}
